@@ -67,7 +67,7 @@ jenkins ALL=(ALL) NOPASSWD: ALL
 How to check current working directory ?
 ----------------------------------------
 pwd - /var/lib/jenkins ( Home directory for jenkins in slave node)
-mkdir ~/.ssh
+mkdir ~/.ssh (inside of jenkin user)
 chmod 700 ~/.ssh
 cd ~/.ssh
 ssh-keygen -t rsa -C "The access key for Jenkins slaves"
